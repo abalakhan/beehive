@@ -189,9 +189,9 @@ Project Link: [https://github.com/abalakhan/beehive](https://github.com/abalakha
 * []()
 * []()
 * []()
--->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 
 
@@ -208,7 +208,7 @@ Project Link: [https://github.com/abalakhan/beehive](https://github.com/abalakha
 [license-shield]: https://img.shields.io/github/license/abalakhan/beehive.svg?style=for-the-badge
 [license-url]: https://github.com/abalakhan/beehive/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/abalakhan
 [product-screenshot]: images/screenshot.png
 <!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
