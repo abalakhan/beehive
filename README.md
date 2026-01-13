@@ -31,14 +31,17 @@
 <br />
 <div align="center">
   <a href="https://github.com/abalakhan/beehive">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://emojiisland.com/cdn/shop/products/honeybee_emoji_icon_png_large.png?v=1571606088" alt="Bee emoji logo" width="80" height="80">
   </a>
+
+  <h2 style="">🚧 CONSTRUCTION IN PROGRESS 🚧</h2>
 
 <h3 align="center">Beehive</h3>
 
   <p align="center">
     Bee-themed Full-Stack Task/Project Management SaaS
     <br />
+    <!--
     <a href="https://github.com/abalakhan/beehive"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -47,6 +50,7 @@
     <a href="https://github.com/abalakhan/beehive/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/abalakhan/beehive/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    -->
   </p>
 </div>
 
@@ -82,13 +86,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<!--
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Beehive`, `project_description`, `project_license`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 
 
 ### Built With
@@ -102,16 +104,17 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+TBD
 
 ### Prerequisites
 
+<!--
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
+-->
 
 ### Installation
 
@@ -158,10 +161,12 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
+<!-- LICENSE 
 ## License
 
 Distributed under the project_license. See `LICENSE.txt` for more information.
+
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,7 +175,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Anastasiia Balakhan - [![LinkedIn][linkedin-shield]][linkedin-url]
+Anastasiia Balakhan - [https://www.linkedin.com/in/abalakhan/](https://www.linkedin.com/in/abalakhan/)
 
 Project Link: [https://github.com/abalakhan/beehive](https://github.com/abalakhan/beehive) 
 
