@@ -8,5 +8,4 @@
 - Added README
 
 ### Removed
-
-- Some packages/libraries from acknowledgements I no longer use
+- Bad mood

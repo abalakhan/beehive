@@ -206,7 +206,7 @@ Project Link: [https://github.com/abalakhan/beehive](https://github.com/abalakha
 [issues-shield]: https://img.shields.io/github/issues/abalakhan/beehive.svg?style=for-the-badge
 [issues-url]: https://github.com/abalakhan/beehive/issues
 [license-shield]: https://img.shields.io/github/license/abalakhan/beehive.svg?style=for-the-badge
-[license-url]: https://github.com/abalakhan/beehive/blob/master/LICENSE.txt
+[license-url]: https://github.com/abalakhan/beehive/blob/main/%20LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/abalakhan
 [product-screenshot]: images/screenshot.png
