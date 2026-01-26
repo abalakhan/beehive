@@ -1,0 +1,12 @@
+// Home page specific styles
+.home-hero {
+  @include flex-center;
+  min-height: 50vh;
+  background: linear-gradient(135deg, $primary-color, darken($primary-color, 20%));
+  color: white;
+}
+
+.task-box {
+  @apply border rounded-lg p-4 shadow-sm;
+  background-color: rgba(255, 255, 255, 0.9);
+}

@@ -1,0 +1,14 @@
+// Button component styles
+.btn-primary {
+  @include button-styles;
+}
+
+.btn-secondary {
+  @include button-styles;
+  background-color: $secondary-color;
+  color: $primary-color;
+
+  &:hover {
+    background-color: lighten($secondary-color, 10%);
+  }
+}

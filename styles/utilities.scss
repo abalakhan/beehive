@@ -1,0 +1,38 @@
+// Custom utility classes
+// These are classes you can use in HTML/JSX for quick styling
+
+.text-gradient {
+  background: linear-gradient(135deg, $primary-color, darken($primary-color, 20%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.shadow-custom {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.border-radius-custom {
+  border-radius: 12px;
+}
+
+// Accessibility utilities
+.visually-hidden {
+  @extend .sr-only;
+}
+
+.focus-ring {
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px $focus-color;
+  }
+}
+
+.high-contrast {
+  filter: contrast(1.5);
+}
+
+.text-readable {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  line-height: 1.6;
+}
