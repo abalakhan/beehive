@@ -15,7 +15,6 @@ import {
 
 
 const navItems = [
-  { label: "Search", to: "/finances" },
   { label: "About", to: "/user/about" }
 ];
 
@@ -59,28 +58,13 @@ export function ComplexNavbar() {
 
   return (
     <Navbar className="mx-auto max-w-screen-xl px-4 py-2 lg:px-8 lg:py-4">
-      <div className="container mx-auto flex flex-wrap items-center justify-between gap-4 text-blue-gray-900">
-        <NavLink to="/" className="text-lg font-semibold text-slate-900">
+      <div className="container mx-auto flex flex-wrap items-center justify-between gap-4">
+        <NavLink to="/" className="text-lg font-semibold gray-50">
           Beehive 🐝
         </NavLink>
 
         <div className="hidden items-center gap-6 lg:flex">
-          <ul className="flex items-center gap-6">
-            {navItems.map(({ label, to }) => (
-              <li key={to}>
-                <NavLink
-                  to={to}
-                  className={({ isActive }) =>
-                    isActive
-                      ? "text-blue-600 font-semibold"
-                      : "text-gray-600 hover:text-blue-600"
-                  }
-                >
-                  {label}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
+          
           <div className="relative flex w-full gap-2 md:w-max">
             <Input
               type="search"
@@ -90,7 +74,7 @@ export function ComplexNavbar() {
               labelProps={{ className: "before:content-none after:content-none" }}
             />
           </div>
-          <Button size="md" className="rounded-lg">
+          <Button color="amber" size="md" className="rounded-lg">
             Search
           </Button>
         </div>
@@ -109,22 +93,7 @@ export function ComplexNavbar() {
 
       <MobileNav open={openNav}>
         <div className="container mx-auto flex flex-col gap-4 px-4 py-4">
-          <ul className="flex flex-col gap-3">
-            {navItems.map(({ label, to }) => (
-              <li key={to}>
-                <NavLink
-                  to={to}
-                  className={({ isActive }) =>
-                    isActive
-                      ? "block text-blue-600 font-semibold"
-                      : "block text-gray-700 hover:text-blue-600"
-                  }
-                >
-                  {label}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
+          
           <div className="relative flex w-full gap-2 md:w-max">
             <Input
               type="search"
@@ -134,7 +103,7 @@ export function ComplexNavbar() {
               labelProps={{ className: "before:content-none after:content-none" }}
             />
           </div>
-          <Button size="md" className="rounded-lg">
+          <Button color="amber" size="md" className="rounded-lg">
             Search
           </Button>
         </div>
