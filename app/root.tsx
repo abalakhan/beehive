@@ -1,13 +1,17 @@
 import {
   isRouteErrorResponse,
-  Link,
   Links,
   Meta,
-  NavLink,
   Outlet,
   Scripts,
   ScrollRestoration,
 } from "react-router";
+import mt from "@material-tailwind/react";
+
+import { ComplexNavbar } from "./components/Navbar";
+
+const MaterialTailwind = (mt as any)?.default ?? mt;
+const { ThemeProvider } = MaterialTailwind;
 
 import type { Route } from "./+types/root";
 import "./app.css";
@@ -45,17 +49,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <>
-      <div>
-        <NavLink to="/user/about" style={({isActive, isPending,isTransitioning}) => ({color: isActive ? "gray" : "pink"})}>About</NavLink>
-        <br></br>
-        <NavLink to="/finances">Finances</NavLink>
-        <br></br>
-        <Link to="/user/post/1">Post 1</Link>
-      </div>
-      
+    <ThemeProvider>
+      <ComplexNavbar />
       <Outlet />
-    </>
+    </ThemeProvider>
   );
 }
 

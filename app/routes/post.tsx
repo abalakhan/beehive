@@ -1,7 +1,6 @@
 import { Form, NavLink, redirect, useFetcher, useNavigate, useNavigation } from "react-router";
-import type { Route } from "./+types/post";
 
-export async function clientLoader({params}: Route.LoaderArgs) {
+export async function clientLoader({params}: any) {
     const postId = params.postId;
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`);
     return await res.json();
@@ -13,7 +12,7 @@ export async function clientLoader({params}: Route.LoaderArgs) {
 // }
 
 // handles POST, PUT, DELETE actions
-export async function clientAction({params}: Route.ClientActionArgs) {
+export async function clientAction({params}: any) {
     try {
         await fetch(`https://jsonplaceholder.typicode.com/posts/${params.postId}`, {method: "DELETE"});
         return {isDeleted: true};
@@ -25,7 +24,7 @@ export async function clientAction({params}: Route.ClientActionArgs) {
 
 // redirect("") works only in loader or action functions
 // useNavigate("") for other functions
-export default function Post({loaderData}: Route.ComponentProps) {
+export default function Post({loaderData}: { loaderData: any }) {
 
     const fetcher = useFetcher();
     const navigate = useNavigate();
