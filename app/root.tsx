@@ -9,12 +9,14 @@ import {
 import mt from "@material-tailwind/react";
 
 import { ComplexNavbar } from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 const MaterialTailwind = (mt as any)?.default ?? mt;
 const { ThemeProvider } = MaterialTailwind;
 
 import type { Route } from "./+types/root";
-import "./app.css";
+import "./tailwind.css";
+import "./app.scss";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -51,6 +53,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <ComplexNavbar />
+      <Sidebar />
       <Outlet />
     </ThemeProvider>
   );
