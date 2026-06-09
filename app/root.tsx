@@ -52,9 +52,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <ThemeProvider>
-      <ComplexNavbar />
-      <Sidebar />
-      <Outlet />
+      <main className="min-h-screen">
+        <ComplexNavbar />
+        <Sidebar />
+        <div className="pt-20 lg:pl-64">
+          <Outlet />
+        </div>
+      </main>
     </ThemeProvider>
   );
 }
